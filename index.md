@@ -13,7 +13,6 @@ Don't have too much in the game, but I did work on the menus some and tweaked th
 
 I also had to essentially recode my entire codebase as I was overusing signals. Signals were leading to functions that called other signals and so on. It was too much of a mess to make a good game, plus it was super tedious to add a new signal and test it. So now I've switched to the normal function calls as opposed to a million signals.
 
-Some of my progress with the play button and in-game menus
 [![Menus](https://i.gyazo.com/00c669800c6e56e8e854d2a2fd734762.gif)](https://gyazo.com/00c669800c6e56e8e854d2a2fd734762)
 
 Menus: [https://gyazo.com/00c669800c6e56e8e854d2a2fd734762](https://gyazo.com/00c669800c6e56e8e854d2a2fd734762)
