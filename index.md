@@ -1,35 +1,27 @@
-### Welcome to [UNAMED GAME] Dev-Blog
+# Welcome to the [UNAMED GAME] Dev-Blog
 
-I started development on this game on 12/17/21
+I started development on this game on 12/17/21. It's been really fun working on the game so far and I can't wait for what's to come in the future.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Starting development - 0.01
+So far development on this game has come along great. Working on everything has been a lot of fun, especially making a game launcher that handles version control and the whole ui for the game.
 
-```markdown
-Syntax highlighted code block
+Looking for more info on the game? Feel free to click [here](game_info_link) to check it out.
+[game_info_link](game_info_link)
 
-# Header 1
-## Header 2
-### Header 3
+Date: 12/19/21
 
-- Bulleted
-- List
+## Implementing basic systems - 0.02
+Don't have too much in the game, but I did work on the menus some and tweaked the character panel. Now you have a working mining system, inventory, and crafting system. I just have to fully implement these features and work more on polishing them as well.
 
-1. Numbered
-2. List
+I also had to essentially recode my entire codebase as I was overusing signals. Signals were leading to functions that called other signals and so on. It was too much of a mess to make a good game, plus it was super tedious to add a new signal and test it. So now I've switched to the normal function calls as opposed to a million signals.
 
-**Bold** and _Italic_ and `Code` text
+Some of my progress with the play button and in-game menus
+[Menus](https://gyazo.com/00c669800c6e56e8e854d2a2fd734762) 
+Menus: [https://gyazo.com/00c669800c6e56e8e854d2a2fd734762](https://gyazo.com/00c669800c6e56e8e854d2a2fd734762)
+[Early Mining UI](https://gyazo.com/8c5e4a4a60b039bc21759b8944ad0b02)
+Early Mining UI: [https://gyazo.com/8c5e4a4a60b039bc21759b8944ad0b02](https://gyazo.com/8c5e4a4a60b039bc21759b8944ad0b02)
+[Mining UI So Far](https://gyazo.com/3b31ae4142fe5e7742ff9a5810e1c9fc)
+Mining UI So Far: [https://gyazo.com/3b31ae4142fe5e7742ff9a5810e1c9fc](https://gyazo.com/3b31ae4142fe5e7742ff9a5810e1c9fc)
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/int91/game_devblog/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Date: 12/20/21
