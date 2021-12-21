@@ -6,9 +6,6 @@ I started development on this game on 12/17/21. It's been really fun working on 
 ## Starting development - 0.01
 So far development on this game has come along great. Working on everything has been a lot of fun, especially making a game launcher that handles version control and the whole ui for the game.
 
-Looking for more info on the game? Feel free to click [here](game_info_link) to check it out.
-[game_info_link](game_info_link)
-
 Date: 12/19/21
 
 ## Implementing basic systems - 0.02
